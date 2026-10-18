@@ -372,7 +372,7 @@ To begin, you'll want to reinstall Bitcoin Core on your virtual machine. For thi
 First, download the latest Bitcoin Core release and verify the file hashes to ensure no tampering has occurred.
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -455,8 +455,10 @@ Let's move on to installing C-Lightning.
 For this lecture, we'll use the latest stable release, e.g., 22.11.1.
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -465,7 +467,7 @@ Always verify the integrity of the downloaded file with GPG keys.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 **Install dependencies and compile from source code**
@@ -474,8 +476,8 @@ Install the necessary dependencies and compile C-Lightning from the source.
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-                        libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+                        libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1002,13 +1004,12 @@ In conclusion, Bitcoin's future and changes are determined by the collective wil
 ## Bitcoin Mining Essentials
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
 #### Introduction
 
-Ajelex focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry.
+The speaker focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry.
 
 ### 1. Mining complexity and profitability factors
 

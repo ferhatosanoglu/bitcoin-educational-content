@@ -24,6 +24,10 @@ Alekos ve Bas tarafından oluşturulmuş ve melontwist ile asi0 tarafından uyar
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Kritik güvenlik uyarısı (7 Ağustos 2026):** BTCPay Server'ı etkileyen kritik bir güvenlik açığı aktif olarak istismar ediliyor ve fon kaybına yol açabilir. Sisteminizi `Admin Dashboard > Server > Maintenance > Update` yolundan derhal **version 2.4.2** sürümüne güncelleyin, ardından alt bilgide `2.4.2` yazdığını doğrulayın. Hemen güncelleyemiyorsanız BTCPay Server örneğinizi kapatın. Güncelleme sonrasında ayrıca macaroons dosyalarınızı ve `macaroons.db` veritabanınızı tamamen yenilemeniz, kullandığınız diğer tüm Lightning arka uçlarının kimlik doğrulama dizelerini baştan oluşturmanız ve BTCPay Server içinde sıcak bir on-chain cüzdan oluşturduysanız bu fonları taşıyıp cüzdanı yeniden oluşturmanız gerekir. Entegrasyon geliştiricileri ayrıca NBXplorer'ı version 2.6.10 sürümüne güncellemelidir. Kaynak: [BTCPay Server 2.4.2 sürüm notları](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 BTCPay Server'daki POS 305 kursuna hoş geldiniz!
 
@@ -263,7 +267,7 @@ Blockchain, İşlem, Çift Harcama, Bizans Generalleri Problemi, Mining, Proof o
 Bu kurs bloğunun amacı BTCPay Server yazılımı hakkında genel bir anlayış kazanmaktır. Paylaşılan bir ortamda, eğitmenin gösterimini takip etmeniz ve öğretmenle birlikte takip etmek için BTCPay Server Kurs Kitabına başvurmanız önerilir. Birden fazla yöntemle nasıl Wallet oluşturacağınızı öğreneceksiniz. Örnekler arasında Hot Wallet kurulumları ve BTCPay Server Vault aracılığıyla bağlanan donanım cüzdanları bulunmaktadır. Bu hedefler, kurs eğitmeniniz tarafından görüntülenen ve erişim izni verilen Demo ortamında gerçekleşir.
 
 
-Bu kursu kendi başınıza takip ederseniz, https://directory.btcpayserver.org/filter/hosts adresinde Demo amaçlı üçüncü taraf ana bilgisayarların bir listesini bulabilirsiniz. Bu üçüncü taraf seçeneklerinin üretim ortamları olarak kullanılmamasını şiddetle tavsiye ediyoruz; ancak, Bitcoin ve BTCPay Server'ın kullanımını tanıtmak için doğru amaca hizmet ediyorlar.
+Bu kursu kendi başınıza takip ederseniz, https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ adresinde Demo amaçlı üçüncü taraf ana bilgisayarların bir listesini bulabilirsiniz. Bu üçüncü taraf seçeneklerinin üretim ortamları olarak kullanılmamasını şiddetle tavsiye ediyoruz; ancak, Bitcoin ve BTCPay Server'ın kullanımını tanıtmak için doğru amaca hizmet ediyorlar.
 
 
 Bir BTCPay Server rockstar stajyeri olarak, daha önce bir Bitcoin düğümü kurma deneyiminiz olabilir. Bu eğitim özellikle BTCPay Server Yazılım yığınına göre uyarlanmıştır.
@@ -2376,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Düğüm Günlükleri
 
 
-bitcoind konteynerinizin [günlüklerine bakmanın](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) yanı sıra, [bitcoin-cli komutlarından](https://developer.Bitcoin.org/reference/RPC/index.html) herhangi birini de kullanabilirsiniz
+bitcoind konteynerinizin [günlüklerine bakmanın](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) yanı sıra, [bitcoin-cli komutlarından](https://developer.bitcoin.org/reference/rpc/index.html) herhangi birini de kullanabilirsiniz
 
 
-gW-454 düğümünüzden bilgi almak için [(yeni pencere açar)](https://developer.Bitcoin.org/reference/RPC/index.html). BTCPay, Bitcoin düğümünüzle kolayca iletişim kurmanızı sağlayacak bir komut dosyası içerir.
+gW-454 düğümünüzden bilgi almak için [(yeni pencere açar)](https://developer.bitcoin.org/reference/rpc/index.html). BTCPay, Bitcoin düğümünüzle kolayca iletişim kurmanızı sağlayacak bir komut dosyası içerir.
 
 
 Btcpayserver-docker klasörünün içinde, düğümünüzü kullanarak Blockchain bilgilerini alın:

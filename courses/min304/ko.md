@@ -41,7 +41,7 @@ objectives:
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-MIN 304, Attakai 프로젝트에 관한 과정에 오신 것을 환영합니다. Ajelex, Jim, Rogzy가 비트코인 채굴의 필수 요소를 안내한 후, 중고 S9로 만든 DIY 가정용 난방 시스템인 Attakai를 단계별로 구축하는 과정을 함께 합니다. 과정을 즐기시고 홈 마이닝 모험을 시작하시기 바랍니다!
+MIN 304, Attakai 프로젝트에 관한 과정에 오신 것을 환영합니다. Jim, Rogzy가 비트코인 채굴의 필수 요소를 안내한 후, 중고 S9로 만든 DIY 가정용 난방 시스템인 Attakai를 단계별로 구축하는 과정을 함께 합니다. 과정을 즐기시고 홈 마이닝 모험을 시작하시기 바랍니다!
 
 
 이 교육은 이론과 실무 지식을 모두 제공하는 Bitcoin Mining 산업의 핵심으로 안내합니다. 이 과정은 초보자든 이미 이 주제에 익숙한 사람이든 상관없이 Mining의 경제적, 기술적 측면을 이해하는 동시에 가정 난방용 ASIC의 용도를 변경하는 실제 프로젝트를 완료하는 데 도움이 될 것입니다.
@@ -462,7 +462,7 @@ Mining을 통한 부의 창출이라는 중요한 문제를 해결하기 위해�
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-일본어로 '이상적인 온도'를 뜻하는 아타카이는 @ajelexBTC와 @jimzap21이 Découvre Bitcoin과 함께 시작한 열 재사용을 통한 Bitcoin Mining 발굴을 목표로 하는 이니셔티브의 이름입니다.
+일본어로 '이상적인 온도'를 뜻하는 아타카이는 @jimzap21이 Découvre Bitcoin과 함께 시작한 열 재사용을 통한 Bitcoin Mining 발굴을 목표로 하는 이니셔티브의 이름입니다.
 
 이 ASIC 개조 가이드는 가정에서 라디에이터로 사용하기 위해 Bitcoin Miner을 개조할 수 있는 가능성을 보여줌으로써 Mining과 그 작동 및 기본 경제성에 대해 자세히 알아볼 수 있는 기초 자료가 될 것입니다. 이를 통해 참가자들은 더 편안하고 절약할 수 있으며, 전기 난방비에서 비 KYC BTC 캐시백을 받을 수 있습니다.
 
@@ -618,7 +618,7 @@ Antminer S9는 다음과 같은 부품으로 구성되어 있습니다:
 이 가이드를 한 문장으로 요약하면 다음과 같습니다: **"믿지 말고 검증하세요."**
 
 
-[파트너인 21energy와 같은 Mining 머신 리컨디셔닝 전문가에게 의뢰할 수도 있습니다. 이 업체는 테스트를 거친 S9 머신을 제공하며, 청소 및 BraiiinOS+ 소프트웨어가 사전 설치되어 있습니다. 제휴 코드 "decouvre"를 사용하면 Attakai 프로젝트를 지원하면서 S9 구매 시 10% 할인을 받을 수 있습니다.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[파트너인 21energy와 같은 Mining 머신 리컨디셔닝 전문가에게 의뢰할 수도 있습니다. 이 업체는 테스트를 거친 S9 머신을 제공하며, 청소 및 BraiiinOS+ 소프트웨어가 사전 설치되어 있습니다. 제휴 코드 "decouvre"를 사용하면 Attakai 프로젝트를 지원하면서 S9 구매 시 10% 할인을 받을 수 있습니다.](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## S9용 하드웨어 수정 구매 가이드

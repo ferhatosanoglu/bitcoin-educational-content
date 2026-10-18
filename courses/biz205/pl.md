@@ -15,7 +15,7 @@ The 18 curricular lectures are in English and were recorded from the Plan ₿ Hu
 
 We also strongly invite you to explore the other half of the Plan ₿ Academy educational offer, the “Plan ₿ Tech School”, which targets engineers, cryptographers, computer scientists, and tech-focused students.
 
-**Teachers:** Giacomo Zucco, Alekos Filini, Alexandre Bussutil, Rogzy, Riccardo Masutti, Marco Giorgetti, Gael Sánchez Smith, Alejandro Munoz, Ajelex, Mario Jose Flamento Riva, Adi Shankara
+**Teachers:** Giacomo Zucco, Alekos Filini, Alexandre Bussutil, Rogzy, Riccardo Masutti, Marco Giorgetti, Gael Sánchez Smith, Alejandro Munoz, Mario Jose Flamento Riva, Adi Shankara
 
 **Guest Lecturers:** Pierre Rochard, Obi Nwosu, Oleg Mikhalsk, Cathie Wood, Knut Svanholm, Allen Farrington, Jack Mallers, Elizabeth Stark, Yan Pritzker, Paolo Ardoino, Jan-Willem Burgers, Eric Yakes, Rockstardev, Stiven Kerestegian.
 
@@ -57,7 +57,7 @@ The Plan ₿ Academy initiative, supported by Fulgur Ventures and Tether, is roo
 
 ### Conclusion
 
-This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://workspace.planb.network/s/wqM3XwPMY7pzCd5).
+This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://drive.planb.academy/s/zdNjjzBPT8HLqaG).
 
 # Why Bitcoin?
 <partId>1b012cbf-94e3-4d12-a522-bbea2f1073d9</partId>

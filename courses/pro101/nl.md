@@ -533,7 +533,7 @@ Download eerst de nieuwste Bitcoin core versie en controleer de hashes van de be
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ Voor deze lezing gebruiken we de laatste stabiele release, bijvoorbeeld 22.11.1.
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ Controleer altijd de integriteit van het gedownloade bestand met GPG-sleutels.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ Installeer de benodigde afhankelijkheden en compileer C-Lightning vanaf de bronc
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1437,7 +1439,6 @@ Concluderend, de toekomst en veranderingen van Bitcoin worden bepaald door de co
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1446,7 @@ Concluderend, de toekomst en veranderingen van Bitcoin worden bepaald door de co
 #### Inleiding
 
 
-Ajelex richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
+De spreker richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
 
 
 ### 1. Mining complexiteit en rentabiliteitsfactoren

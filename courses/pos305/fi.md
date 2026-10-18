@@ -24,6 +24,10 @@ Alekoksen ja Basin luoma ja melontwistin ja asi0:n mukauttama kurssi paljastaa, 
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Kriittinen tietoturvavaroitus (7. elokuuta 2026):** BTCPay Serveriä koskevaa kriittistä haavoittuvuutta hyödynnetään parhaillaan aktiivisesti, ja se voi johtaa varojen menetykseen. Päivitä instanssisi välittömästi **versioon 2.4.2** polun `Admin Dashboard > Server > Maintenance > Update` kautta ja tarkista sen jälkeen, että alatunnisteessa lukee `2.4.2`. Jos et pysty päivittämään heti, sammuta BTCPay Server. Päivityksen jälkeen sinun on myös uusittava kokonaan macaroons-tunnisteesi ja `macaroons.db`-tiedostosi, uusittava kokonaan kaikkien muiden Lightning-taustajärjestelmien tunnistautumismerkkijonot sekä, mikäli olet luonut kuuman on-chain-lompakon BTCPay Serverin sisällä, siirrettävä kyseiset varat ja luotava lompakko uudelleen. Integraattoreiden tulee lisäksi päivittää NBXplorer versioon 2.6.10. Lähde: [BTCPay Server 2.4.2 -julkaisutiedot](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 Tervetuloa POS 305 -kurssille BTCPay Serverillä!
 
@@ -263,7 +267,7 @@ Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof o
 Tämän kurssikokonaisuuden tavoitteena on saada yleinen ymmärrys BTCPay Server -ohjelmistosta. Jaetussa ympäristössä on suositeltavaa seurata opettajan esittelyä ja tutustua BTCPay Server -kurssikirjaan, jotta voit seurata opettajan mukana. Opit luomaan Wallet:n useiden eri menetelmien avulla. Esimerkkeinä ovat Hot Wallet-asetukset ja BTCPay Server Vaultin kautta yhdistetyt laitteistolompakot. Nämä tavoitteet tapahtuvat demoympäristössä, joka on esillä ja johon kurssin opettajasi antaa pääsyn.
 
 
-Jos seuraat tätä kurssia itse, löydät luettelon kolmannen osapuolen isännistä demotarkoituksiin osoitteesta https://directory.btcpayserver.org/filter/hosts. Emme suosittele käyttämään näitä kolmannen osapuolen vaihtoehtoja tuotantoympäristöinä, mutta ne palvelevat kuitenkin tarkoituksenmukaisesti Bitcoin:n ja BTCPay Serverin käytön esittelyä.
+Jos seuraat tätä kurssia itse, löydät luettelon kolmannen osapuolen isännistä demotarkoituksiin osoitteesta https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Emme suosittele käyttämään näitä kolmannen osapuolen vaihtoehtoja tuotantoympäristöinä, mutta ne palvelevat kuitenkin tarkoituksenmukaisesti Bitcoin:n ja BTCPay Serverin käytön esittelyä.
 
 
 BTCPay Server rockstar -harjoittelijana sinulla saattaa olla aiempaa kokemusta Bitcoin-solmun perustamisesta. Tämä kurssi on räätälöity erityisesti BTCPay Server -ohjelmistopinoa varten.
@@ -2376,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin-solmun lokit
 
 
-bitcoind-säiliön [lokien tarkastelun](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) lisäksi voit myös käyttää mitä tahansa [bitcoin-cli-komentoja](https://developer.Bitcoin.org/reference/RPC/index.html)
+bitcoind-säiliön [lokien tarkastelun](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) lisäksi voit myös käyttää mitä tahansa [bitcoin-cli-komentoja](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(avaa uuden ikkunan)](https://developer.Bitcoin.org/reference/RPC/index.html) saadaksesi tietoja Bitcoin-solmusta. BTCPay sisältää skriptin, jonka avulla voit kommunikoida Bitcoin-solmun kanssa helposti.
+[(avaa uuden ikkunan)](https://developer.bitcoin.org/reference/rpc/index.html) saadaksesi tietoja Bitcoin-solmusta. BTCPay sisältää skriptin, jonka avulla voit kommunikoida Bitcoin-solmun kanssa helposti.
 
 
 Hae btcpayserver-docker-kansion sisältä Blockchain-tiedot solmun avulla:

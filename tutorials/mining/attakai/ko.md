@@ -16,7 +16,7 @@ description: S9을 가정용 히터로 변신시키다
 ## 소개
 
 
-"일본어로 '이상적인 온도'를 뜻하는 '아타카이'는 @ajelexBTC와 블롭온체인이 Découvre Bitcoin와 함께 시작한 열 재사용을 통한 Bitcoin Mining 발굴을 목표로 하는 이니셔티브의 이름입니다. 이 ASIC 개조 가이드는 Mining과 그 운영, 최근 역사 및 기본 경제에 대해 자세히 알아볼 수 있는 기초 자료가 될 것입니다.
+"일본어로 '이상적인 온도'를 뜻하는 '아타카이'는 블롭온체인이 Découvre Bitcoin와 함께 시작한 열 재사용을 통한 Bitcoin Mining 발굴을 목표로 하는 이니셔티브의 이름입니다. 이 ASIC 개조 가이드는 Mining과 그 운영, 최근 역사 및 기본 경제에 대해 자세히 알아볼 수 있는 기초 자료가 될 것입니다.
 
 
 ### ASIC의 열을 재사용하는 이유는 무엇인가요?
@@ -478,7 +478,7 @@ Miner 상태 탭에서는 ASIC의 실시간 작동에 대한 다양한 정보를
 이제 ASIC용 소프트웨어인 Braiins OS+(https://braiins.com/os/plus)에 대해 알아보겠습니다. 이 소프트웨어는 Mining pool Braiins 풀(https://braiins.com/pool)의 모기업인 [Braiins](https://braiins.com/)에서 개발했습니다. 이 Mining pool은 이 글을 쓰는 시점에 현재 전 세계 Hashrate의 4.39%를 보유하고 있습니다. 프라하에 본사를 둔 이 회사는 이전에는 슬러시풀로 알려졌으며 2010년 11월에 시작된 최초의 Mining pool입니다. [여기](https://Mempool.space/Mining/pool/braiinspool)에서 업데이트된 Hashrate 및 풀 지배력 통계를 확인할 수 있습니다.
 
 
-현재 이 회사는 다양한 활동을 통해 Mining용 수익성 연구 도구(https://insights.braiins.com/en), 풀 활동과 병행하는 Mining 농장 관리 솔루션, ASIC용 최적화 소프트웨어 등을 제공하고 있습니다. 또한 새로운 Stratum V2 프로토콜(https://braiins.com/Bitcoin-Mining-stack-upgrade)을 사용하는 Mining도 제공합니다.
+현재 이 회사는 다양한 활동을 통해 Mining용 수익성 연구 도구(https://insights.braiins.com/en), 풀 활동과 병행하는 Mining 농장 관리 솔루션, ASIC용 최적화 소프트웨어 등을 제공하고 있습니다. 또한 새로운 Stratum V2 프로토콜(https://braiins.com/bitcoin-mining-stack-upgrade)을 사용하는 Mining도 제공합니다.
 
 
 따라서 현재 유일하게 호환되는 모델인 비트메인 디바이스의 작동에 대해 더 자세히 알아볼 것입니다:
@@ -714,4 +714,4 @@ Braiins OS+는 오버클럭, ASIC의 언더클럭, 오토튜닝을 지원합니�
 그 결과 전력 와트당 Hash 요금이 높아져 채굴자의 수익 마진이 더 커집니다. 이러한 유형의 소프트웨어가 기계와 함께 배포되지 않는 이유는 고객이 자신이 얻는 것을 정확히 알고 싶어하기 때문에 기계 편차가 바람직하지 않기 때문에 제조업체가 기계마다 일관되고 예측 가능한 성능이 없는 제품을 판매하는 것은 좋지 않은 생각이기 때문입니다. 또한 칩 수준의 자동 튜닝은 구현이 복잡하기 때문에 상당한 개발 리소스가 필요합니다. 제조업체는 이미 자체 펌웨어 개발에 많은 리소스를 투입하고 있습니다. Braiins OS+와 같이 자동 튜닝을 지원하는 소프트웨어 솔루션이 있습니다. 이 솔루션은 ASIC의 성능을 최대 20%까지 향상시킬 수 있습니다.
 
 
-이 가이드는 데쿠브르비트코인에서 작성했으며, MIN201에 대한 자세한 정보는 Jim과 Ajelex의 크레딧을 받았습니다
+이 가이드는 데쿠브르비트코인에서 작성했으며, MIN201에 대한 자세한 정보는 Jim의 크레딧을 받았습니다

@@ -533,7 +533,7 @@ sudo systemctl status bitcoind
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ C-Lightning 的模組化設計意味著您可以根據需要增加或移除功�
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ sha256sum clightning-v22.11.1.tar.gz
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1437,7 +1439,6 @@ Bitcoin 的共識機制使其具有固有的政治性，需要廣泛的同意才
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1446,7 @@ Bitcoin 的共識機制使其具有固有的政治性，需要廣泛的同意才
 #### 簡介
 
 
-Ajelex 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
+講者 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
 
 
 ### 1.Mining 複雜性與獲利因素

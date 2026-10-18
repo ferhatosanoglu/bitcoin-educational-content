@@ -24,6 +24,10 @@ Skapad av Alekos och Bas, och anpassad av melontwist och asi0, avslöjar denna k
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Kritisk säkerhetsvarning (7 augusti 2026):** en kritisk sårbarhet som påverkar BTCPay Server utnyttjas aktivt och kan leda till förlust av medel. Uppdatera din instans till **version 2.4.2** omedelbart via `Admin Dashboard > Server > Maintenance > Update` och kontrollera sedan att sidfoten visar `2.4.2`. Om du inte kan uppdatera omgående, stäng ner din BTCPay Server. När uppdateringen är klar måste du dessutom byta ut dina macaroons och din `macaroons.db` helt, byta ut autentiseringssträngarna för eventuella andra Lightning-backends helt, och om du har genererat en hot on-chain-plånbok inuti BTCPay Server ska du flytta dessa medel och skapa plånboken på nytt. Integratörer bör även uppdatera NBXplorer till version 2.6.10. Källa: [Versionsinformation för BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 Välkommen till kursen POS 305 på BTCPay Server!
 
@@ -263,7 +267,7 @@ Blockchain, Transaktion, Double-Spend, Byzantine Generals' Problem, Mining, Proo
 Syftet med detta kursblock är att få en allmän förståelse för programvaran BTCPay Server. I en delad miljö rekommenderas det att du följer instruktörens demonstration och hänvisar till BTCPay Server Coursebook för att följa med läraren. Du kommer att lära dig hur du skapar en Wallet genom flera metoder. Exemplen inkluderar Hot Wallet-installationer och hårdvaruplånböcker anslutna via BTCPay Server Vault. Dessa mål inträffar i Demo-miljön, som visas och ges tillgång till av din kursinstruktör.
 
 
-Om du följer den här kursen själv kan du hitta en lista över tredjepartsvärdar för demo-ändamål på https://directory.btcpayserver.org/filter/hosts. Vi avråder starkt från att använda dessa tredjepartsalternativ som produktionsmiljöer; de tjänar dock rätt syfte för att introducera användningen av Bitcoin och BTCPay Server.
+Om du följer den här kursen själv kan du hitta en lista över tredjepartsvärdar för demo-ändamål på https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Vi avråder starkt från att använda dessa tredjepartsalternativ som produktionsmiljöer; de tjänar dock rätt syfte för att introducera användningen av Bitcoin och BTCPay Server.
 
 
 Som BTCPay Server rockstar-trainee kanske du har tidigare erfarenhet av att konfigurera en Bitcoin-nod. Den här kursen är särskilt anpassad till BTCPay Server Software stack.
@@ -2376,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Loggar för noder
 
 
-Förutom att [titta på loggar](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) för din bitcoind-container kan du också använda något av [bitcoin-cli-kommandona](https://developer.Bitcoin.org/reference/RPC/index.html)
+Förutom att [titta på loggar](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) för din bitcoind-container kan du också använda något av [bitcoin-cli-kommandona](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(öppnar nytt fönster)](https://developer.Bitcoin.org/reference/RPC/index.html) för att få information från din Bitcoin-nod. BTCPay innehåller ett skript som gör att du enkelt kan kommunicera med din Bitcoin-nod.
+[(öppnar nytt fönster)](https://developer.bitcoin.org/reference/rpc/index.html) för att få information från din Bitcoin-nod. BTCPay innehåller ett skript som gör att du enkelt kan kommunicera med din Bitcoin-nod.
 
 
 I mappen btcpayserver-docker hämtar du Blockchain-informationen med hjälp av din nod:

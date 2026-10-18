@@ -29,7 +29,7 @@ Trinn-for-trinn-veiledninger leder deg gjennom hele prosessen slik at du kan byg
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Velkommen til MIN 304, kurset om Attakai-prosjektet. Ajelex, Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
+Velkommen til MIN 304, kurset om Attakai-prosjektet. Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
 
 Denne opplæringen tar deg med inn i kjernen av Bitcoin-miningindustrien ved å gi deg en forståelse av både teoretiske og praktiske aspekter. Enten du er nybegynner eller allerede kjent med emnet, vil dette kurset hjelpe deg med å forstå de økonomiske og tekniske utfordringene knyttet til mining, mens du fullfører et praktisk prosjekt med å gjenbruke en ASIC til hjemmeklimaoppvarming.
 
@@ -297,7 +297,7 @@ Konklusjonen er at til tross for den regulatoriske risikoen og muligheten for et
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, som betyr "den ideelle temperaturen" på japansk, er navnet på initiativet rettet mot å oppdage bitcoin-gruvedrift gjennom gjenbruk av varme lansert av @ajelexBTC og @jimzap21 med Découvre Bitcoin.
+Attakai, som betyr "den ideelle temperaturen" på japansk, er navnet på initiativet rettet mot å oppdage bitcoin-gruvedrift gjennom gjenbruk av varme lansert av @jimzap21 med Découvre Bitcoin.
 Denne ASIC-ombyggingsguiden vil tjene som grunnlag for å lære mer om gruvedrift, dens drift og den underliggende økonomien ved å demonstrere muligheten for å tilpasse en Bitcoin-gruvearbeider for bruk som radiatorer i hjem. Dette tilbyr mer komfort og besparelser, og lar deltakerne motta ikke-KYC BTC cashback på deres elektriske oppvarmingsregning.
 
 Bitcoin justerer automatisk gruvedriftsvanskeligheten og belønner gruvearbeidere for deres deltakelse. Imidlertid kan konsentrasjonen av hashrate utgjøre risikoer for nettverkets nøytralitet. Å bruke Bitcoins databehandlingskraft for oppvarmingsløsninger gagner direkte nettverket selv ved å øke distribusjonen av databehandlingskraft.
@@ -390,7 +390,7 @@ Du kan deretter fjerne den forrige eierens mining pool for å sette opp din egen
 Etter å ha gjennomgått alle disse punktene, kan du kjøpe maskinen din med høy grad av tillit. Hvis du er i tvil, konsulter fellesskapet.
 
 For å oppsummere denne veiledningen i én setning: **"Ikke stol, verifiser."**
-[Du kan også henvende deg til profesjonelle innen rekonstruksjon av gruveutstyr, som vår partner 21energy. De tilbyr testede S9-maskiner, rengjort og med BraiiinOS+ programvare allerede installert. Med affiliatekoden "decouvre" vil du motta en 10% rabatt på kjøpet av en S9 samtidig som du støtter Attakai-prosjektet.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Du kan også henvende deg til profesjonelle innen rekonstruksjon av gruveutstyr, som vår partner 21energy. De tilbyr testede S9-maskiner, rengjort og med BraiiinOS+ programvare allerede installert. Med affiliatekoden "decouvre" vil du motta en 10% rabatt på kjøpet av en S9 samtidig som du støtter Attakai-prosjektet.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Guide for kjøp av maskinvaremodifikasjoner for S9
 

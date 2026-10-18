@@ -21,6 +21,10 @@ Creato da Alekos e Bas, e adattato da melontwist e asi0, questo corso rivela com
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Allarme di sicurezza critico (7 agosto 2026):** una vulnerabilità critica che riguarda BTCPay Server è attivamente sfruttata e può causare la perdita dei fondi. Aggiorna immediatamente la tua istanza alla **versione 2.4.2** tramite `Admin Dashboard > Server > Maintenance > Update`, quindi verifica che il footer mostri `2.4.2`. Se non puoi aggiornare subito, spegni il tuo BTCPay Server. Una volta aggiornato, devi anche rigenerare completamente i tuoi macaroons e il tuo `macaroons.db`, rigenerare completamente le stringhe di autenticazione di qualsiasi altro backend Lightning e, se hai generato un wallet on-chain di tipo hot all'interno di BTCPay Server, spostare quei fondi e ricreare il wallet. Gli integratori dovrebbero inoltre aggiornare NBXplorer alla versione 2.6.10. Fonte: [note di rilascio di BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 Benvenuto al corso POS 305 su BTCPay Server!
 
 L'obiettivo di questo corso è insegnarti come installare, configurare e utilizzare BTCPay Server all'interno della tua organizzazione o azienda. BTCPay Server è una soluzione open-source che consente di elaborare pagamenti in bitcoin in modo autonomo, sicuro ed economico. Questo corso è rivolto principalmente agli utenti avanzati che desiderano padroneggiare il self-hosting di BTCPay Server per un'integrazione completa nelle loro attività quotidiane.
@@ -211,7 +215,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 ### Lavorare con BTCPay Server
 
 L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
-Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
+Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
 Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
 
@@ -2360,7 +2364,7 @@ Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un 
 
 Familiarizzerai con Voltage.cloud come provider di hosting, farai i primi passi per usare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver seguito tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
 
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org/Deployment/voltagecloud/
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org
 
 ### Distribuzione di BTCPay Server - Voltage.cloud
 

@@ -533,7 +533,7 @@ Først laster du ned den nyeste Bitcoin core-versjonen og verifiserer filhashene
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ I dette foredraget bruker vi den nyeste stabile versjonen, f.eks. 22.11.1.
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ Kontroller alltid integriteten til den nedlastede filen med GPG-nøkler.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ Installer de nødvendige avhengighetene og kompiler C-Lightning fra kildekode.
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1437,7 +1439,6 @@ Bitcoins fremtid og endringer avgjøres av brukernes kollektive vilje. Viktige e
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1446,7 @@ Bitcoins fremtid og endringer avgjøres av brukernes kollektive vilje. Viktige e
 #### Innledning
 
 
-Ajelex fokuserer på forretningsaspektet ved Bitcoin Mining, og undersøker strategier for å opprettholde lønnsomheten i et konkurranseutsatt marked. Diskusjonen inkluderer en analyse av driftskostnader, effektivitetstiltak og de økonomiske drivkreftene i Mining-bransjen.
+Foredragsholderen fokuserer på forretningsaspektet ved Bitcoin Mining, og undersøker strategier for å opprettholde lønnsomheten i et konkurranseutsatt marked. Diskusjonen inkluderer en analyse av driftskostnader, effektivitetstiltak og de økonomiske drivkreftene i Mining-bransjen.
 
 
 ### 1. Mining kompleksitet og lønnsomhetsfaktorer

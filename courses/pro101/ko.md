@@ -533,7 +533,7 @@ sudo systemctl status bitcoind
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ C-Lightning 설치로 넘어가겠습니다.
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ sha256sum clightning-v22.11.1.tar.gz
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1437,7 +1439,6 @@ Bitcoin에서는 다수결 원칙이 중요한 역할을 합니다. 채굴자의
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1446,7 @@ Bitcoin에서는 다수결 원칙이 중요한 역할을 합니다. 채굴자의
 #### 소개
 
 
-Ajelex는 경쟁이 치열한 시장에서 수익성을 유지하기 위한 전략을 검토하면서 Bitcoin Mining의 비즈니스 측면에 초점을 맞춥니다. 이 논의에는 운영 비용, 효율성 측정 및 Mining 산업을 이끄는 경제성 분석이 포함됩니다.
+발표자는 경쟁이 치열한 시장에서 수익성을 유지하기 위한 전략을 검토하면서 Bitcoin Mining의 비즈니스 측면에 초점을 맞춥니다. 이 논의에는 운영 비용, 효율성 측정 및 Mining 산업을 이끄는 경제성 분석이 포함됩니다.
 
 
 ### 1. Mining 복잡성 및 수익성 요인

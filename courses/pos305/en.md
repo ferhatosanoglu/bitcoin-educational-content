@@ -21,6 +21,10 @@ Created by Alekos and Bas, and adapted by melontwist and asi0, this course revea
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Critical security alert (7 August 2026):** a critical vulnerability affecting BTCPay Server is being actively exploited and can lead to a loss of funds. Update your instance to **version 2.4.2** immediately via `Admin Dashboard > Server > Maintenance > Update`, then check that the footer displays `2.4.2`. If you cannot update straight away, shut down your BTCPay Server. Once updated, you must also completely refresh your macaroons and your `macaroons.db`, completely refresh the authentication strings of any other Lightning backend, and, if you generated a hot on-chain wallet inside BTCPay Server, move those funds and recreate the wallet. Integrators should also update NBXplorer to version 2.6.10. Source: [BTCPay Server 2.4.2 release notes](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 Welcome to the POS 305 course on BTCPay Server!
 
 The goal of this training is to teach you how to install, configure, and use BTCPay Server within your business or organization. BTCPay Server is an open-source solution that allows you to process Bitcoin payments autonomously, securely, and cost-effectively. This course is primarily aimed at advanced users who want to master self-hosting BTCPay Server for full integration into their daily operations.
@@ -194,7 +198,7 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, [Mining](h
 
 The objective of this course block is to gain a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and refer to the BTCPay Server Coursebook to follow along with the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
 
-If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://directory.btcpayserver.org/filter/hosts. We strongly advise against using these third-party options as production environments; however, they serve the right purpose for introducing the use of Bitcoin and BTCPay Server.
+If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. We strongly advise against using these third-party options as production environments; however, they serve the right purpose for introducing the use of Bitcoin and BTCPay Server.
 
 As a BTCPay Server rockstar trainee, you might have previous experience setting up a Bitcoin node. This course is specifically tailored to the BTCPay Server Software stack.
 

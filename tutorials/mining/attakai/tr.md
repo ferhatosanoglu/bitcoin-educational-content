@@ -16,7 +16,7 @@ description: Bir S9'un ev ısıtıcısına dönüştürülmesi
 ## Giriş
 
 
-japonca'da "ideal sıcaklık" anlamına gelen "Attakaï", @ajelexBTC ve @BlobOnChain tarafından Découvre Bitcoin ile başlatılan ısının yeniden kullanımı yoluyla Bitcoin Mining'yi keşfetmeyi amaçlayan girişimin adıdır. Bu ASIC güçlendirme rehberi, Mining, işleyişi, yakın tarihi ve altında yatan ekonomi hakkında daha fazla bilgi edinmek için bir temel oluşturacaktır.
+japonca'da "ideal sıcaklık" anlamına gelen "Attakaï", @BlobOnChain tarafından Découvre Bitcoin ile başlatılan ısının yeniden kullanımı yoluyla Bitcoin Mining'yi keşfetmeyi amaçlayan girişimin adıdır. Bu ASIC güçlendirme rehberi, Mining, işleyişi, yakın tarihi ve altında yatan ekonomi hakkında daha fazla bilgi edinmek için bir temel oluşturacaktır.
 
 
 ### Neden bir ASIC'un ısısını yeniden kullanalım?
@@ -412,7 +412,7 @@ Ve işte oldu, tebrikler! Az önce Miner'inizin tüm mekanik parçasını deği�
 ## Bölüm 4 - Yazılım Değişikliği - Antminer S9'un Sıfırlanması
 
 
-**BlobOnChain & Ajelex tarafından önerilen makale serisi - 15/02/2023**
+**BlobOnChain tarafından önerilen makale serisi - 15/02/2023**
 
 
 ### "Sıfırla" düğmesi ile sıfırlayın
@@ -474,7 +474,7 @@ Miner Durum sekmesinde, ASIC'nin canlı çalışmasıyla ilgili çeşitli bilgil
 Şimdi, ASIC'ler için Braiins OS+ (https://braiins.com/os/plus) yazılımını inceleyeceğiz. Yazılım, Mining pool Braiins Pool'un (https://braiins.com/pool) ana şirketi olan [Braiins](https://braiins.com/) şirketi tarafından geliştirilmiştir. Bu Mining pool, bu satırların yazıldığı sırada küresel Hashrate'ün %4,39'una sahiptir. Prag merkezli şirket daha önce Slushpool olarak biliniyordu ve Kasım 2010'da başlayan ilk Mining pool'tür. [Burada](https://Mempool.space/Mining/pool/braiinspool) güncellenmiş Hashrate ve havuz hakimiyeti istatistiklerini bulacaksınız.
 
 
-Bugün şirket, çeşitli faaliyetleriyle Mining için karlılık çalışma araçları (https://insights.braiins.com/en), havuz faaliyetine paralel olarak Mining çiftlik yönetimi çözümleri ve ASIC'ler için optimizasyon yazılımı sunmaktadır. Ayrıca yeni Stratum V2 protokolünü kullanan Mining'i de sunmaktadır (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Bugün şirket, çeşitli faaliyetleriyle Mining için karlılık çalışma araçları (https://insights.braiins.com/en), havuz faaliyetine paralel olarak Mining çiftlik yönetimi çözümleri ve ASIC'ler için optimizasyon yazılımı sunmaktadır. Ayrıca yeni Stratum V2 protokolünü kullanan Mining'i de sunmaktadır (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Bu nedenle, şu anda tek uyumlu model olan Bitmain cihazlarının çalışmasını daha ayrıntılı olarak inceleyeceğiz:
@@ -712,4 +712,4 @@ Bu, bir makinenin sahip olabileceği Hash oranına bir üst sınır koyar. Otoma
 Sonuç olarak elektrik watt'ı başına daha yüksek bir Hash oranı elde edilir, bu da madenciler için daha büyük kar marjları anlamına gelir. Makinelerin bu tür bir yazılımla dağıtılmamasının nedeni, müşterilerin tam olarak ne aldıklarını bilmek istemeleri ve bu nedenle üreticilerin bir makineden diğerine tutarlı ve öngörülebilir performansa sahip olmayan bir ürün satmasının kötü bir fikir olması nedeniyle makine farklılığının istenmeyen bir durum olmasıdır. Ayrıca, çip düzeyinde otomatik ayarlama, uygulanması karmaşık olduğu için önemli geliştirme kaynakları gerektirir. Üreticiler zaten kendi yazılımlarını geliştirmek için çok fazla kaynak harcamaktadır. Braiins OS+ gibi otomatik ayarlamaya olanak tanıyan yazılım çözümleri mevcuttur. ASIC performansını %20'ye kadar artırmanın yanı sıra.
 
 
-Bu kılavuz DecouvreBitcoin tarafından oluşturulmuştur, MIN201 hakkında daha fazla bilgi - Jim ve Ajelex'e kredi
+Bu kılavuz DecouvreBitcoin tarafından oluşturulmuştur, MIN201 hakkında daha fazla bilgi - Jim'e kredi

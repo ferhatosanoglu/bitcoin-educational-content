@@ -24,6 +24,10 @@ Créé par Alekos et Bas, et adapté par melontwist et asi0, ce cours révèle c
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Alerte de sécurité critique (7 août 2026) :** une vulnérabilité critique affectant BTCPay Server est activement exploitée et peut entraîner une perte de fonds. Mettez immédiatement votre instance à jour en **version 2.4.2** via `Admin Dashboard > Server > Maintenance > Update`, puis vérifiez que le pied de page affiche bien `2.4.2`. Si vous ne pouvez pas mettre à jour tout de suite, éteignez votre BTCPay Server. Une fois la mise à jour effectuée, vous devez également régénérer complètement vos macaroons ainsi que votre `macaroons.db`, régénérer complètement les chaînes d'authentification de tout autre backend Lightning et, si vous avez généré un portefeuille on-chain chaud dans BTCPay Server, déplacer ces fonds et recréer le portefeuille. Les intégrateurs doivent également mettre à jour NBXplorer en version 2.6.10. Source : [notes de version de BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 Bienvenue au cours POS 305 sur le serveur BTCPay !
 
@@ -263,7 +267,7 @@ Blockchain, transaction, double dépense, problème byzantin des généraux, [Mi
 L'objectif de ce bloc de cours est d'acquérir une compréhension générale du logiciel BTCPay Server. Dans un environnement partagé, il est recommandé de suivre la démonstration de l'instructeur et de se référer au manuel de cours de BTCPay Server pour suivre le professeur. Vous apprendrez à créer une Wallet à l'aide de plusieurs méthodes. Les exemples incluent des configurations Hot Wallet et des [portefeuilles matériels](https://planb.academy/resources/glossary/hardware-wallet) connectés via BTCPay Server Vault. Ces objectifs se déroulent dans l'environnement de démonstration, affiché et accessible par votre instructeur de cours.
 
 
-Si vous suivez ce cours par vous-même, vous pouvez trouver une liste d'hôtes tiers à des fins de démonstration à l'adresse https://directory.btcpayserver.org/filter/hosts. Nous déconseillons fortement d'utiliser ces options tierces comme environnements de production ; cependant, elles servent à introduire l'utilisation de Bitcoin et de BTCPay Server.
+Si vous suivez ce cours par vous-même, vous pouvez trouver une liste d'hôtes tiers à des fins de démonstration à l'adresse https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Nous déconseillons fortement d'utiliser ces options tierces comme environnements de production ; cependant, elles servent à introduire l'utilisation de Bitcoin et de BTCPay Server.
 
 
 En tant que stagiaire de BTCPay Server rockstar, vous avez peut-être déjà eu l'occasion de configurer un nœud Bitcoin. Ce cours est spécifiquement adapté à la pile logicielle de BTCPay Server.
@@ -2376,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Journaux des nœuds Bitcoin
 
 
-En plus de [consulter les journaux](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de votre conteneur bitcoind, vous pouvez également utiliser n'importe laquelle des [commandes bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+En plus de [consulter les journaux](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de votre conteneur bitcoind, vous pouvez également utiliser n'importe laquelle des [commandes bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(ouvre une nouvelle fenêtre)](https://developer.Bitcoin.org/reference/RPC/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
+[(ouvre une nouvelle fenêtre)](https://developer.bitcoin.org/reference/rpc/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
 
 
 Dans le dossier btcpayserver-docker, récupérez les informations de Blockchain en utilisant votre node :

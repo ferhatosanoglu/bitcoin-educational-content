@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Gushinga no gukoresha COLDCARD Q .
 ---
+
+> **⚠️ ITANGAZO RY'UMUTEKANO RIHUTIRWA (Mukakaro 2026) — Amapfukapfuka ya Coldcard ariko arasahurwa ubu nyene.** Ikosa rya firmware mu gukora seed ku bikoresho vya Coldcard rituma abasahuzi bashobora kuronka amajambo ya seed yawe utagize ico ukoze na kimwe. **Ibicapo vyose vya Coldcard biragizweko ingaruka: Mk3, Mk4, Mk5 na Q.** Ku wa 30 Mukakaro 2026, hafi BTC 594 zibwe mu mapfukapfuka nk'ay 500, kandi igitero kiracabandanya. Amapfukapfuka yakozwe hakoreshejwe uburyo bwo guterera udupimo (dice roll) ni yo yonyene afatwa nk'atekanye, kandi gusa iyo watereye n'imiburiburi udupimo 50. Nimba utazi, utibuka, canke udafise ukuri ku kuntu seed yawe yakozwe, yifate nk'iyamenyekanye kandi **wimurire amahera yawe ubu nyene** mu gapfukapfuka seed yako itakozwe kuri Coldcard. Kurikirana amatangazo yemewe ya Coinkite. Raba inyigisho yacu yabigenewe yo kwimuka:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 
@@ -74,7 +79,7 @@ Ku ruhande rwa porogarama, COLDCARD Q irafise ibikoresho vyiza nk’ibindi bikor
 Muri make, COLDCARD Q itanga ubumenyi bwiza kuruta MK4, kandi ishobora kuba nziza ku bakoresha bo hagati n’abateye imbere barondera uko bakoresha vyoroshe.
 
 
-COLDCARD Q iraboneka ku kugurisha [ku rubuga rwemewe rwa Coinkite](https://iduka.coinkite.com/iduka/iduka ry'ubukonje). Ishobora kandi kugurwa n’umucuruzi.
+COLDCARD Q iraboneka ku kugurisha [ku rubuga rwemewe rwa Coinkite](https://store.coinkite.com/store/coldcard). Ishobora kandi kugurwa n’umucuruzi.
 
 
 ## Gutegura inyigisho
@@ -110,7 +115,7 @@ Niba ushaka gukoresha COLDCARD yawe utayihuje na mudasobwa (air-gap), shiramwo a
 ![CCQ](assets/fr/005.webp)
 
 
-Kuri iyi nyigisho, uzokenera kandi Sparrow wallet kugira ngo ushobore gucunga Bitcoin Wallet yawe kuri mudasobwa yawe. Ushobora gukuraho [Sparrow wallet](https/gukuraho/) ku rubuga rwemewe. Ndaguhanura cane ko wosuzuma ukuri kwayo (na GnuPG) n’ubutungane bwayo (biciye kuri Hash) imbere yo gukomeza gushiramwo. Niba utazi uko wobikora, kurikiza iyi nyigisho:
+Kuri iyi nyigisho, uzokenera kandi Sparrow wallet kugira ngo ushobore gucunga Bitcoin Wallet yawe kuri mudasobwa yawe. Ushobora gukuraho [Sparrow wallet](https://sparrowwallet.com/download/) ku rubuga rwemewe. Ndaguhanura cane ko wosuzuma ukuri kwayo (na GnuPG) n’ubutungane bwayo (biciye kuri Hash) imbere yo gukomeza gushiramwo. Niba utazi uko wobikora, kurikiza iyi nyigisho:
 
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -226,7 +231,7 @@ Suzuma [ku rubuga rwemewe rwa COLDCARD](https://coldcard.com/downloads) kugira n
 ![CCQ](assets/fr/020.webp)
 
 
-Muri iki gihe, turagusavye cane gusuzuma ubutungane n’ukuri kw’ivyo bikoresho vyavuye kuri interineti. Kugira ngo ubikore, fungura [inyandiko irimwo ama hashes y’ama verisiyo yose, yashizweko umukono n’abayiteguye](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), ugenzure umukono ukoresheje [urufunguzo rwa bose rw’umuhinguzi](https://keychechebase.io/ ihuye n’iyo porogarama y’ivyuma yavanwe kuri uwo muhora. Niba vyose bimeze neza, urashobora gukomeza n’ivyo guhindura.
+Muri iki gihe, turagusavye cane gusuzuma ubutungane n’ukuri kw’ivyo bikoresho vyavuye kuri interineti. Kugira ngo ubikore, fungura [inyandiko irimwo ama hashes y’ama verisiyo yose, yashizweko umukono n’abayiteguye](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), ugenzure umukono ukoresheje [urufunguzo rwa bose rw’umuhinguzi](https://keybase.io/dochex ihuye n’iyo porogarama y’ivyuma yavanwe kuri uwo muhora. Niba vyose bimeze neza, urashobora gukomeza n’ivyo guhindura.
 
 
 Niba utazi neza ubu buryo bwo kugenzura, ndagusavye gukurikira iyi nyigisho:

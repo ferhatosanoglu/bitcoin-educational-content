@@ -32,7 +32,7 @@ objectives:
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-歡迎來到MIN 304，關於Attakai專案的課程。Ajelex、Jim和Rogzy將引導您了解比特幣挖礦的基本要素，然後一步步陪伴您建造您的Attakai，這是一個由二手S9製成的DIY家用暖氣設備。我們希望這門課程能讓您感到愉快，並且您將投身於家庭挖礦的冒險！
+歡迎來到MIN 304，關於Attakai專案的課程。Jim和Rogzy將引導您了解比特幣挖礦的基本要素，然後一步步陪伴您建造您的Attakai，這是一個由二手S9製成的DIY家用暖氣設備。我們希望這門課程能讓您感到愉快，並且您將投身於家庭挖礦的冒險！
 
 本培訓讓您深入比特幣挖礦產業的核心，並提供理解其理論和實踐方面的機會。無論您是新手還是已經熟悉該主題，這門課程都將讓您掌握與挖礦相關的經濟和技術問題，同時實現一個將ASIC重新用於家庭供暖的實用專案。
 
@@ -313,7 +313,7 @@ Attakai 倡議突顯了貢獻網路的重要性，同時提供解決方案，使
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai 在日語中的意思是「理想的溫度」，是 @ajelexBTC 和 @jimzap21 與 Découvre Bitcoin 發起的旨在透過熱能再利用來探索 Bitcoin 挖礦。
+Attakai 在日語中的意思是「理想的溫度」，是 @jimzap21 與 Découvre Bitcoin 發起的旨在透過熱能再利用來探索 Bitcoin 挖礦。
 
 本 ASIC 改裝指南將通過展示將 Bitcoin 礦機改裝為家庭散熱器使用的可能性，作為瞭解挖礦、其運行和基礎經濟的基礎。這不僅能提供更舒適的居家環境與節省開支，還能讓參與者從他們的電費暖氣帳單中，以非 KYC（了解你的客戶）方式獲得 BTC 回饋金。
 
@@ -423,7 +423,7 @@ Antminer S9 由以下部分組成：
 
 用一句話概括本指南： **「不要相信，要驗證 」**。
 
-[您也可以向專業的機器翻新人員尋求協助，例如我們的合作夥伴 21energy。他們提供經過測試的 S9 機器，已清洗並安裝 BraiiinOS+ 軟體。使用聯盟代碼 "decouvre"，您將在購買 S9 時獲得 10% 的折扣，同時支持 Attakai 專案。](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[您也可以向專業的機器翻新人員尋求協助，例如我們的合作夥伴 21energy。他們提供經過測試的 S9 機器，已清洗並安裝 BraiiinOS+ 軟體。使用聯盟代碼 "decouvre"，您將在購買 S9 時獲得 10% 的折扣，同時支持 Attakai 專案。](https://21energy.com/products/bitmain-antminer-s9)
 
 ## S9 硬體改裝採購指南
 

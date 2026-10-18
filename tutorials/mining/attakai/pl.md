@@ -16,7 +16,7 @@ Inicjatywa "Attakaï" bada Bitcoin Mining wykorzystując generowane ciepło. Prz
 ## Wprowadzenie
 
 
-"Attakaï", co po japońsku oznacza "idealną temperaturę", to nazwa inicjatywy mającej na celu odkrycie Bitcoin Mining poprzez ponowne wykorzystanie ciepła zapoczątkowanej przez @ajelexBTC i @BlobOnChain z Découvre Bitcoin. Niniejszy przewodnik dotyczący modernizacji ASIC posłuży jako podstawa do zapoznania się z Mining, jego działaniem, najnowszą historią i podstawową ekonomią.
+"Attakaï", co po japońsku oznacza "idealną temperaturę", to nazwa inicjatywy mającej na celu odkrycie Bitcoin Mining poprzez ponowne wykorzystanie ciepła zapoczątkowanej przez @BlobOnChain z Découvre Bitcoin. Niniejszy przewodnik dotyczący modernizacji ASIC posłuży jako podstawa do zapoznania się z Mining, jego działaniem, najnowszą historią i podstawową ekonomią.
 
 
 ### Po co ponownie wykorzystywać ciepło z ASIC?
@@ -412,7 +412,7 @@ No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Mi
 ## Rozdział 4 - Modyfikacja oprogramowania - Resetowanie urządzenia Antminer S9
 
 
-**Seria artykułów zaproponowana przez BlobOnChain & Ajelex - 15/02/2023**
+**Seria artykułów zaproponowana przez BlobOnChain - 15/02/2023**
 
 
 ### Resetowanie za pomocą przycisku "Reset"
@@ -474,7 +474,7 @@ W zakładce Status Miner można obserwować różne informacje na temat działan
 Teraz przeanalizujemy oprogramowanie dla układów ASIC Braiins OS+ (https://braiins.com/os/plus). Oprogramowanie to zostało opracowane przez firmę [Braiins](https://braiins.com/), która jest spółką macierzystą Mining pool Braiins Pool (https://braiins.com/pool). Ten Mining pool ma obecnie 4,39% globalnego Hashrate w momencie pisania tego tekstu. Firma z siedzibą w Pradze była wcześniej znana jako Slushpool i jest pierwszym Mining pool, który wystartował w listopadzie 2010 roku. [Tutaj](https://Mempool.space/Mining/pool/braiinspool) można znaleźć zaktualizowane statystyki Hashrate i dominacji w puli.
 
 
-Obecnie firma, w ramach swojej różnorodnej działalności, oferuje narzędzia do badania rentowności Mining (https://insights.braiins.com/en), rozwiązania do zarządzania farmą Mining równolegle z działalnością w zakresie puli oraz oprogramowanie do optymalizacji układów ASIC. Oferuje również Mining przy użyciu nowego protokołu Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Obecnie firma, w ramach swojej różnorodnej działalności, oferuje narzędzia do badania rentowności Mining (https://insights.braiins.com/en), rozwiązania do zarządzania farmą Mining równolegle z działalnością w zakresie puli oraz oprogramowanie do optymalizacji układów ASIC. Oferuje również Mining przy użyciu nowego protokołu Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Dlatego też bardziej szczegółowo przeanalizujemy działanie urządzeń Bitmain, które są obecnie jedynymi kompatybilnymi modelami:
@@ -712,5 +712,5 @@ Nakłada to górny limit na częstotliwość Hash, jaką może mieć maszyna. Au
 Efektem końcowym jest wyższy wskaźnik Hash na wat energii elektrycznej, co oznacza większe marże zysku dla górników. Powodem, dla którego maszyny nie są dystrybuowane z tego typu oprogramowaniem, jest to, że zmienność maszyn jest niepożądana, ponieważ klienci chcą dokładnie wiedzieć, co otrzymują, a zatem złym pomysłem jest, aby producenci sprzedawali produkt, który nie ma spójnej i przewidywalnej wydajności z jednej maszyny na drugą. Dodatkowo, autotuning na poziomie chipów wymaga znacznych zasobów rozwojowych, ponieważ jest skomplikowany w implementacji. Producenci już teraz poświęcają wiele zasobów na rozwój własnego oprogramowania układowego. Istnieją rozwiązania programowe umożliwiające autotuning, takie jak Braiins OS+. Oprócz poprawy wydajności ASIC nawet o 20%.
 
 
-Ten przewodnik został stworzony przez DecouvreBitcoin, więcej informacji na temat MIN201 - kredyt Jim i Ajelex
+Ten przewodnik został stworzony przez DecouvreBitcoin, więcej informacji na temat MIN201 - kredyt Jim
 

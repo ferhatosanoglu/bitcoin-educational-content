@@ -16,7 +16,7 @@ Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa.
 ## Utangulizi
 
 
-"Attakaï," ambalo linamaanisha "joto linalofaa" kwa Kijapani, ndilo jina la mpango unaolenga kugundua Bitcoin Mining kupitia utumiaji tena wa joto uliozinduliwa na @ajelexBTC na @BlobOnChain na Découvre Bitcoin. Mwongozo huu wa urekebishaji wa ASIC utatumika kama msingi wa kujifunza zaidi kuhusu Mining, uendeshaji wake, historia ya hivi majuzi, na uchumi msingi.
+"Attakaï," ambalo linamaanisha "joto linalofaa" kwa Kijapani, ndilo jina la mpango unaolenga kugundua Bitcoin Mining kupitia utumiaji tena wa joto uliozinduliwa na @BlobOnChain na Découvre Bitcoin. Mwongozo huu wa urekebishaji wa ASIC utatumika kama msingi wa kujifunza zaidi kuhusu Mining, uendeshaji wake, historia ya hivi majuzi, na uchumi msingi.
 
 
 ### Kwa nini utumie tena joto kutoka kwa ASIC?
@@ -412,7 +412,7 @@ Na hapo unayo, pongezi! Umebadilisha sehemu nzima ya mitambo ya Miner yako. Unap
 ## Sura ya 4 - Marekebisho ya Programu - Kuweka upya Antminer S9
 
 
-**Mfululizo wa makala uliopendekezwa na BlobOnChain & Ajelex - 15/02/2023**
+**Mfululizo wa makala uliopendekezwa na BlobOnChain - 15/02/2023**
 
 
 ### Weka upya kupitia kitufe cha "Rudisha".
@@ -474,7 +474,7 @@ Katika kichupo cha Hali ya Miner, unaweza kuona taarifa mbalimbali kuhusu uendes
 Sasa, tutasoma programu ya ASICs Braiins OS+ (https://braiins.com/os/plus). Programu hii imeundwa na kampuni [Braiins](https://braiins.com/), ambayo ni kampuni mama ya Mining pool Braiins Pool (https://braiins.com/pool). Mining pool hii kwa sasa ina 4.39% ya Hashrate ya kimataifa wakati wa kuandika mistari hii. Kampuni ya Prague hapo awali ilijulikana kama Slushpool na ndiyo Mining pool ya kwanza iliyoanza Novemba 2010. [Hapa](https://Mempool.space/Mining/pool/braiinspool) utapata takwimu zilizosasishwa za Hashrate na jumla ya watu wengi.
 
 
-Leo, kampuni hiyo, pamoja na shughuli zake mbalimbali, inatoa zana za utafiti wa faida kwa Mining (https://insights.braiins.com/en), suluhisho za usimamizi wa shamba za Mining sambamba na shughuli zake za kuogelea, na programu yake ya uboreshaji kwa ASIC. Pia inatoa Mining kwa kutumia itifaki mpya ya Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Leo, kampuni hiyo, pamoja na shughuli zake mbalimbali, inatoa zana za utafiti wa faida kwa Mining (https://insights.braiins.com/en), suluhisho za usimamizi wa shamba za Mining sambamba na shughuli zake za kuogelea, na programu yake ya uboreshaji kwa ASIC. Pia inatoa Mining kwa kutumia itifaki mpya ya Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Kwa hivyo tutajifunza kwa undani zaidi uendeshaji wa vifaa vya Bitmain, ambavyo kwa sasa ni mifano pekee inayoendana:
@@ -712,6 +712,6 @@ Hiki kinaweka kikomo cha juu kwenye kiwango cha Hash ambacho mashine inaweza kuw
 Matokeo ya mwisho ni kiwango cha juu cha Hash kwa kila wati ya umeme, ambayo ina maana ya faida kubwa zaidi kwa wachimbaji. Sababu ya mashine kutosambazwa na aina hii ya programu ni kwamba utofauti wa mashine haufai, kwani wateja wanataka kujua ni nini hasa wanachopata, na kwa hivyo ni wazo mbaya kwa watengenezaji kuuza bidhaa ambayo haina utendakazi thabiti na unaotabirika kutoka kwa mashine moja hadi nyingine. Zaidi ya hayo, utengenezaji wa kiwango cha chip unahitaji rasilimali nyingi za maendeleo, kwani ni ngumu kutekeleza. Wazalishaji tayari wanatumia rasilimali nyingi kuendeleza firmwares zao wenyewe. Kuna suluhu za programu zinazoruhusu utunzi otomatiki, kama vile Braiins OS+. Mbali na kuboresha utendaji wa ASIC kwa hadi 20%.
 
 
-Mwongozo huu umeundwa na DecouvreBitcoin, maelezo zaidi juu ya MIN201 - mkopo Jim na Ajelex
+Mwongozo huu umeundwa na DecouvreBitcoin, maelezo zaidi juu ya MIN201 - mkopo Jim
 
 

@@ -24,6 +24,10 @@ Stworzony przez Alekosa i Basa, a zaadaptowany przez melontwist i asi0, ten kurs
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Krytyczny alert bezpieczeństwa (7 sierpnia 2026):** krytyczna podatność dotycząca BTCPay Server jest aktywnie wykorzystywana i może prowadzić do utraty środków. Natychmiast zaktualizuj swoją instancję do **wersji 2.4.2** przez `Admin Dashboard > Server > Maintenance > Update`, a następnie sprawdź, czy w stopce wyświetla się `2.4.2`. Jeśli nie możesz zaktualizować od razu, wyłącz swój BTCPay Server. Po aktualizacji musisz również całkowicie odświeżyć swoje macaroons oraz plik `macaroons.db`, całkowicie odświeżyć ciągi uwierzytelniające wszelkich innych backendów Lightning, a jeśli wygenerowałeś gorący portfel on-chain wewnątrz BTCPay Server — przenieś te środki i utwórz portfel od nowa. Integratorzy powinni dodatkowo zaktualizować NBXplorer do wersji 2.6.10. Źródło: [Informacje o wydaniu BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 Witamy w kursie POS 305 na serwerze BTCPay!
 
@@ -263,7 +267,7 @@ Blockchain, transakcja, podwójny wydatek, bizantyjski problem generałów, Mini
 Celem tego bloku kursu będzie ogólne zrozumienie oprogramowania BTCPay Server. W środowisku współdzielonym zaleca się śledzenie demonstracji instruktora i podążanie za podręcznikiem BTCPay Server, aby podążać za nauczycielem. Dowiesz się, jak utworzyć Wallet za pomocą wielu metod. Przykłady obejmują konfiguracje Hot Wallet i portfele sprzętowe połączone za pośrednictwem BTCPay Server Vault. Cele te występują w środowisku demonstracyjnym, wyświetlanym i udostępnianym przez instruktora kursu.
 
 
-Jeśli śledzisz ten kurs samodzielnie, możesz znaleźć listę hostów innych firm do celów demonstracyjnych na stronie https://directory.btcpayserver.org/filter/hosts. Zdecydowanie odradzamy korzystanie z tych opcji innych firm jako środowisk produkcyjnych, ale służą one właściwym celom jako wprowadzenie do korzystania z Bitcoin i BTCPay Server.
+Jeśli śledzisz ten kurs samodzielnie, możesz znaleźć listę hostów innych firm do celów demonstracyjnych na stronie https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Zdecydowanie odradzamy korzystanie z tych opcji innych firm jako środowisk produkcyjnych, ale służą one właściwym celom jako wprowadzenie do korzystania z Bitcoin i BTCPay Server.
 
 
 Jako stażysta BTCPay Server Rockstar możesz mieć wcześniejsze doświadczenie w konfigurowaniu węzła Bitcoin. Ten kurs będzie specjalnie dostosowany do stosu oprogramowania BTCPay Server.
@@ -2379,10 +2383,10 @@ bitcoin-lightning-cli.sh getlog
 #### Dzienniki węzła Bitcoin
 
 
-Oprócz [przeglądania dzienników](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontenera bitcoind, można również użyć dowolnego z [poleceń bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Oprócz [przeglądania dzienników](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontenera bitcoind, można również użyć dowolnego z [poleceń bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(otwiera nowe okno)](https://developer.Bitcoin.org/reference/RPC/index.html), aby uzyskać informacje z węzła Bitcoin. BTCPay zawiera skrypt umożliwiający łatwą komunikację z węzłem Bitcoin.
+[(otwiera nowe okno)](https://developer.bitcoin.org/reference/rpc/index.html), aby uzyskać informacje z węzła Bitcoin. BTCPay zawiera skrypt umożliwiający łatwą komunikację z węzłem Bitcoin.
 
 
 W folderze btcpayserver-docker pobierz informacje Blockchain za pomocą węzła:

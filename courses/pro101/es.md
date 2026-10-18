@@ -533,7 +533,7 @@ En primer lugar, descargue la última versión de Bitcoin core y verifique los h
 
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```
@@ -644,8 +644,10 @@ Para esta conferencia, utilizaremos la última versión estable, por ejemplo, 22
 
 
 ```sh
-wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.tar.gz
-sha256sum clightning-v22.11.1.tar.gz
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/clightning-v22.11.1.zip
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS
+wget https://github.com/ElementsProject/lightning/releases/download/v22.11.1/SHA256SUMS.asc
+sha256sum clightning-v22.11.1.zip
 # Verify the hash against the provided hash
 ```
 
@@ -657,7 +659,7 @@ Verifique siempre la integridad del archivo descargado con claves GPG.
 
 ```sh
 gpg --recv-keys <developer-key-id>
-gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
+gpg --verify SHA256SUMS.asc SHA256SUMS
 ```
 
 
@@ -669,8 +671,8 @@ Instale las dependencias necesarias y compile C-Lightning desde el código fuent
 ```sh
 sudo apt-get update
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev \
-libsqlite3-dev python3 python3-mako net-tools zlib1g-dev
-tar -xzf clightning-v22.11.1.tar.gz
+libsqlite3-dev python3 python3-mako net-tools zlib1g-dev unzip
+unzip clightning-v22.11.1.zip
 cd clightning-v22.11.1
 ./configure
 make
@@ -1437,7 +1439,6 @@ En conclusión, el futuro y los cambios de Bitcoin vienen determinados por la vo
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1446,7 @@ En conclusión, el futuro y los cambios de Bitcoin vienen determinados por la vo
 #### Introducción
 
 
-Ajelex se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
+El ponente se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
 
 
 ### 1. Mining factores de complejidad y rentabilidad

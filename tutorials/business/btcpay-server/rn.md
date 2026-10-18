@@ -3,6 +3,10 @@ name: BTCPay Server
 description: Kwemera amahera ya BTC ata bahuza
 ---
 
+⚠️ **Inkuru ihutirwa yerekeye umutekano (itariki 7 Myandagaro 2026):** hari ikinenge gikomeye kiri muri BTCPay Server kirimo gukoreshwa nabi n'abagizi ba nabi, kandi gishobora gutuma uta amahera yawe. Nuce ushira urubuga rwawe kuri **version 2.4.2** ata gutebagana, uciye kuri `Admin Dashboard > Server > Maintenance > Update`, hanyuma wihweze ko epfo y'urupapuro heretse `2.4.2`. Nimba udashobora kuvyagura ubu nyene, zimya BTCPay Server yawe. Iyo umaze kuvyagura, urakwiye kandi guhindura burundu macaroons yawe hamwe na `macaroons.db` yawe, guhindura burundu imirongo y'ukwemezwa (authentication strings) y'ubundi buryo bwose bwa Lightning ukoresha, kandi, nimba waratanguje ikibindi (hot wallet) co on-chain muri BTCPay Server, imura ayo mahera hanyuma wongere uremeko ikibindi gishasha. Abashira hamwe za sisiteme (integrators) bakwiye kandi kwagura NBXplorer bakayishira kuri version 2.6.10. Aho vyavuye: [Ivyanditswe ku gusohorwa kwa BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 ![cover](assets/cover.webp)
 
 
@@ -90,7 +94,7 @@ BTCPay Server ishobora gushirwa mu buryo butandukanye. Bivanye n’ivyo ukeneye 
 
 
 - BTCPay Server yakiriwe n’uwundi muntu**: ukoresha urubuga rukwakira iyo serivisi. Biroroshe, ariko kenshi si ubuntu.
-- Server ya BTCPay yitunganije kuri server y’igicu** (nk’akarorero biciye ku [mutanga amafaranga](https://umutanga amafaranga.com/), [abantu ba Bitcoin](http://abantu ba bitcoin.it/) canke uwundi mutanga amafaranga wese). Uwo ni wo muti usabwa ku bacuruzi benshi bashasha.
+- Server ya BTCPay yitunganije kuri server y’igicu** (nk’akarorero biciye ku [mutanga amafaranga](https://btcpayprovider.com/), [abantu ba Bitcoin](http://bitcoinpeople.it/) canke uwundi mutanga amafaranga wese). Uwo ni wo muti usabwa ku bacuruzi benshi bashasha.
 - BTCPay Server ishizwe ku bikoresho vyawe bwite (mu karere)** : kuri mudasobwa, mini-PC canke Umbrel. Ubwo buryo burarushiriza kuba ubuhinga, ariko buratanga ubwigenge bwose.
 
 
@@ -113,7 +117,7 @@ BTCPay Server ishobora gukoreshwa vuba cane ivuye ku mubare w’abatanga uburaro
 
 
 
-Sura [urubuga rwemewe rw’umuriro](https://umuriro.igicu).
+Sura [urubuga rwemewe rw’umuriro](https://voltage.cloud).
 
 
 

@@ -16,7 +16,7 @@ Ico gikorwa ca "Attakaï" kiratohoza Bitcoin Mining hakoreshejwe ubushuhe buva m
 ## Imenyekanisha
 
 
-"Attakaï," bisobanura "ubushuhe bwiza" mu kiyapani, ni izina ry'umugambi ugamije kuvumbura Bitcoin Mining biciye mu gusubira gukoresha ubushuhe bwatangujwe na @ajelexBTC na @BlobOnChain na Découvre Bitcoin. Iyi nkuru yo gusubiramwo ASIC izokora nk’ishimikiro ryo kumenya vyinshi ku bijanye na Mining, ingene ikora, amateka yayo aheruka, n’ubutunzi bushingiyeko.
+"Attakaï," bisobanura "ubushuhe bwiza" mu kiyapani, ni izina ry'umugambi ugamije kuvumbura Bitcoin Mining biciye mu gusubira gukoresha ubushuhe bwatangujwe na @BlobOnChain na Découvre Bitcoin. Iyi nkuru yo gusubiramwo ASIC izokora nk’ishimikiro ryo kumenya vyinshi ku bijanye na Mining, ingene ikora, amateka yayo aheruka, n’ubutunzi bushingiyeko.
 
 
 ### Ni kuki wosubira gukoresha ubushuhe buva ku ASIC?
@@ -221,11 +221,11 @@ Niba ushaka gufungura/kuzimya Antminer yawe ukoresheje telefone yawe ngendanwa n
 
 
 - 2X 3D igice c'umuhinduzi 140mm kugeza kuri 120mm
-- 2X NF-A14 iPPC-2000 PWM [ihuza]
-- 2X 140mm umuyaga w'umuyaga [ihuza]
-- Noctua NF-A6x25 PWM [ihuriro](ihuriro]
-- Isukari y'umuyagankuba 2,5mm2 [ihuriro]
-- 11g-300 [ihuriro](ikiraro-cohindura-Ethernet/dp/B014SK2H6W)
+- 2X NF-A14 iPPC-2000 PWM [ihuza](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- 2X 140mm umuyaga w'umuyaga [ihuza](https://www.amazon.fr/dp/B06XD4FTSQ)
+- Noctua NF-A6x25 PWM [ihuriro](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
+- Isukari y'umuyagankuba 2,5mm2 [ihuriro](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
+- 11g-300 [ihuriro](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 
 
 ## Igice ca 3 - INYIGISHO: Ni gute wohindura Miner ngo ibe Heater?
@@ -416,7 +416,7 @@ Kandi aho niho ufise, urakoze! Ubu nyene warasubirije igice cose c'ubuhinga bwa 
 ## Igice ca 4 - Guhindura porogaramu - Gusubiramwo Antminer S9.
 
 
-**Urutonde rw'ingingo zashikirijwe na BlobOnChain na Ajelex - 15/02/2023**
+**Urutonde rw'ingingo zashikirijwe na BlobOnChain - 15/02/2023**
 
 
 ### Gusubiramwo biciye ku buto "Subiramwo"
@@ -714,4 +714,4 @@ Ivyo bishira umupaka wo hejuru ku rugero rwa Hash imashini ishobora kugira. Auto
 Iherezo ry’ivyo ni igipimo kinini c’umuyagankuba Hash ku watt, ivyo bikaba bisobanura ko abacukuzi bashobora kuronka inyungu nyinshi. Impamvu imashini zidakwiragizwa n'ubwo bwoko bwa porogaramu ni uko uguhinduka kw'imashini kudakwiriye, kuko abaguzi bashaka kumenya neza ivyo bariko bararonka, kandi rero ni iciyumviro kibi ku bahinguzi kugurisha igicuruzwa kidafise ubushobozi buhoraho kandi bushobora gutegekanirwa kuva ku mashini imwe gushika ku yindi. Ikindi, autotuning ku rugero rwa chip bisaba uburyo bwinshi bwo guteza imbere, kuko biragoye gushirwa mu ngiro. Abahinguzi baramaze gukoresha amahera menshi mu guhingura ama firmware yabo. Hariho ubuhinga bwo gutorera umuti ibibazo bishobora gutuma umuntu ashobora guhindura ibintu, nka Braiins OS+. Uretse no gutuma ASIC ikora neza gushika ku bice 20%.
 
 
-Iyi nkuru yakozwe na DecouvreBitcoin, amakuru menshi ku MIN201 - inguzanyo Jim na Ajelex
+Iyi nkuru yakozwe na DecouvreBitcoin, amakuru menshi ku MIN201 - inguzanyo Jim

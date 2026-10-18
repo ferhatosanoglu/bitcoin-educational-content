@@ -21,6 +21,10 @@ objectives:
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **重大安全警報（2026 年 8 月 7 日）：** 一項影響 BTCPay Server 的重大漏洞正遭到積極利用，可能導致資金損失。請立即透過 `Admin Dashboard > Server > Maintenance > Update` 將您的執行個體更新至 **version 2.4.2**，然後確認頁尾顯示 `2.4.2`。若您無法立即更新，請關閉您的 BTCPay Server。更新完成後，您還必須徹底更換您的 macaroons 與 `macaroons.db`、徹底更換任何其他 Lightning 後端的驗證字串；若您曾在 BTCPay Server 內產生熱錢包（on-chain），請將該筆資金轉出並重新建立錢包。整合商亦應將 NBXplorer 更新至 version 2.6.10。來源：[BTCPay Server 2.4.2 發行說明](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2)。
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 歡迎來到 POS 305 課程：BTCPay Server 教學！
 
 本課程的目標是教您如何在您的業務或組織中安裝、設定及使用 BTCPay Server。BTCPay Server 是一個開源解決方案，可讓您以自主、安全且低成本的方式處理比特幣付款。本課程主要針對希望精通自我託管 BTCPay Server 並將其整合至日常營運的進階使用者。
@@ -201,7 +205,7 @@ Blockchain、交易、雙重支出、拜占庭將軍問題、Mining、Proof of W
 
 本課程區塊的目標是對 BTCPay Server 軟體有一般的了解。在共享環境中，建議跟隨講師的示範，並隨著 BTCPay Server 課程手冊跟隨老師學習。您將學習如何透過多種方法建立 Wallet。範例包括 Hot Wallet 設定和透過 BTCPay Server Vault 連接的[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)。這些目標發生在演示環境中，由您的課程導師展示和提供訪問。
 
-如果您自己學習本課程，您可以在 https://directory.btcpayserver.org/filter/hosts 找到用於 Demo 的第三方主機清單。我們強烈建議不要使用這些第三方選項作為生產環境，但它們可以達到介紹使用 Bitcoin 和 BTCPay 伺服器的目的。
+如果您自己學習本課程，您可以在 https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/ 找到用於 Demo 的第三方主機清單。我們強烈建議不要使用這些第三方選項作為生產環境，但它們可以達到介紹使用 Bitcoin 和 BTCPay 伺服器的目的。
 
 身為 BTCPay Server rockstar 的受訓者，您可能已經有設定 Bitcoin 節點的經驗。本課程將特別針對 BTCPay Server 軟體堆疊進行講解。
 
@@ -1753,9 +1757,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### Bitcoin 節點日誌
 
-除了 bitcoind 容器的 [查看日誌](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您也可以使用任何 [bitcoin-cli 指令](https://developer.Bitcoin.org/reference/RPC/index.html)
+除了 bitcoind 容器的 [查看日誌](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您也可以使用任何 [bitcoin-cli 指令](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(開啟新視窗)](https://developer.Bitcoin.org/reference/RPC/index.html)從您的Bitcoin節點獲取資訊。BTCPay包括一個腳本，讓您可以輕鬆地與您的Bitcoin節點通信。
+[(開啟新視窗)](https://developer.bitcoin.org/reference/rpc/index.html)從您的Bitcoin節點獲取資訊。BTCPay包括一個腳本，讓您可以輕鬆地與您的Bitcoin節點通信。
 
 在 btcpayserver-docker 資料夾內，使用您的節點取得 Blockchain 資訊：
 

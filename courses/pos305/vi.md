@@ -24,6 +24,10 @@ Niềm tin rất mong manh, đặc biệt khi liên quan đến tiền bạc. Kh
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Cảnh báo bảo mật nghiêm trọng (7 tháng 8 năm 2026):** một lỗ hổng nghiêm trọng ảnh hưởng đến BTCPay Server đang bị khai thác tích cực và có thể dẫn đến mất tiền. Hãy cập nhật ngay lập tức phiên bản của bạn lên **version 2.4.2** thông qua `Admin Dashboard > Server > Maintenance > Update`, sau đó kiểm tra xem chân trang có hiển thị `2.4.2` hay không. Nếu bạn không thể cập nhật ngay, hãy tắt BTCPay Server của bạn. Sau khi cập nhật, bạn cũng phải làm mới hoàn toàn các macaroons và tệp `macaroons.db` của mình, làm mới hoàn toàn chuỗi xác thực của bất kỳ backend Lightning nào khác, và nếu bạn đã tạo ví nóng on-chain bên trong BTCPay Server, hãy chuyển số tiền đó đi và tạo lại ví. Các nhà tích hợp cũng nên cập nhật NBXplorer lên version 2.6.10. Nguồn: [Ghi chú phát hành BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 Chào mừng bạn đến với khóa học POS 305 về Máy chủ BTCPay!
 
@@ -262,7 +266,7 @@ Blockchain, Giao dịch, Chi tiêu gấp đôi, Bài toán của các vị tư�
 Mục tiêu của khối khóa học này là giúp bạn hiểu tổng quan về phần mềm BTCPay Server. Trong môi trường chia sẻ, bạn nên theo dõi phần trình bày của giảng viên và tham khảo Sách hướng dẫn về BTCPay Server để học cùng giảng viên. Bạn sẽ học cách tạo Wallet thông qua nhiều phương pháp. Ví dụ bao gồm thiết lập Hot, Wallet và [ví phần cứng](https://planb.academy/resources/glossary/hardware-wallet) được kết nối thông qua BTCPay Server Vault. Các mục tiêu này được thực hiện trong môi trường Demo, được giảng viên trình bày và cấp quyền truy cập.
 
 
-Nếu bạn tự học khóa học này, bạn có thể tìm thấy danh sách các máy chủ lưu trữ của bên thứ ba cho mục đích Demo tại https://directory.btcpayserver.org/filter/hosts. Chúng tôi khuyến cáo không nên sử dụng các tùy chọn của bên thứ ba này làm môi trường sản xuất; tuy nhiên, chúng phục vụ đúng mục đích giới thiệu việc sử dụng Bitcoin và BTCPay Server.
+Nếu bạn tự học khóa học này, bạn có thể tìm thấy danh sách các máy chủ lưu trữ của bên thứ ba cho mục đích Demo tại https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/. Chúng tôi khuyến cáo không nên sử dụng các tùy chọn của bên thứ ba này làm môi trường sản xuất; tuy nhiên, chúng phục vụ đúng mục đích giới thiệu việc sử dụng Bitcoin và BTCPay Server.
 
 
 Là một học viên chuyên nghiệp của BTCPay Server, bạn có thể đã có kinh nghiệm thiết lập node Bitcoin. Khóa học này được thiết kế riêng cho nền tảng phần mềm BTCPay Server.
@@ -2374,10 +2378,10 @@ bitcoin-lightning-cli.sh getlog
 #### Nhật ký nút Bitcoin
 
 
-Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(mở cửa sổ mới)](https://developer.Bitcoin.org/reference/RPC/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
+[(mở cửa sổ mới)](https://developer.bitcoin.org/reference/rpc/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
 
 
 Bên trong thư mục btcpayserver-docker, hãy lấy thông tin Blockchain bằng nút của bạn:
